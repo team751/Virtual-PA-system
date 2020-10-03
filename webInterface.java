@@ -1,4 +1,4 @@
-public webInterface {
+public class webInterface {
 
 
 
