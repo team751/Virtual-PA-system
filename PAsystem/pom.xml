@@ -12,6 +12,13 @@
 
   <name>PAsystem Maven Webapp</name>
   <url>http://localhost:8080</url>
+  <Engine name="Catalina" defaultHost="www.test.example.com">
+
+    <Host name="www.test.example.com"  appBase="test"
+        unpackWARs="true" autoDeploy="true"
+        xmlValidation="false" xmlNamespaceAware="false">
+    </Host>
+  </Engine>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
